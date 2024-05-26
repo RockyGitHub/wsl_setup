@@ -28,6 +28,8 @@ sudo apt update
 sudo apt-get update
 echo "Configuring snap"
 sudo snap set system experimental.hidden-snap-folder=true
+
+echo "Installing components for neovim and AstroNvim"
 echo "Installing neovim"
 sudo snap install --yes nvim
 echo "Installing tree-sitter-cli"
